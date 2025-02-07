@@ -15,12 +15,10 @@ class LoginActivity : ComponentActivity() {
             LoginScreen(
                 viewModel = mainViewModel,
                 onLoginSuccess = {
-                    // redirige a HomeActivity
                     startActivity(Intent(this, HomeActivity::class.java))
                     finish()
                 },
                 onNavigateToRegister = {
-                    // redirige a RegisterUserActivity
                     startActivity(Intent(this, RegisterUserActivity::class.java))
                     finish()
                 }

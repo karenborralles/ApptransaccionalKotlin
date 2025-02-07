@@ -15,7 +15,6 @@ class RegisterUserActivity : ComponentActivity() {
             RegisterUserScreen(
                 viewModel = mainViewModel,
                 onRegisterSuccess = {
-                    // redirige a LoginActivity
                     startActivity(Intent(this, LoginActivity::class.java))
                     finish()
                 },
