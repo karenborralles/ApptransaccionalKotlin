@@ -24,5 +24,6 @@
         <activity android:name=".activities.LoginActivity" android:exported="true"/>
         <activity android:name=".activities.RegisterUserActivity" android:exported="true"/>
         <activity android:name=".activities.HomeActivity" android:exported="true"/>
+        <activity android:name=".activities.SensorActivity" android:exported="true"/>
     </application>
 </manifest>

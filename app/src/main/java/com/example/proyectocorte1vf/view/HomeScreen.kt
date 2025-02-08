@@ -16,6 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import com.example.proyectocorte1vf.activities.LoginActivity
+import com.example.proyectocorte1vf.activities.SensorActivity
 import com.example.proyectocorte1vf.models.PacienteResponse
 import com.example.proyectocorte1vf.viewmodel.MainViewModel
 
